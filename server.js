@@ -19,7 +19,8 @@ app.use((req, res, next) => {
 // app.use(cors({ origin: 'http://localhost:5173/', credentials: true }))
 app.use(
   cors({
-    origin: ['http://localhost:5173', 'http://localhost:5174'], // ✅ фронтенд (Vite)
+    origin: ['http://localhost:5173', 'http://localhost:5174'],
+    'https://visionary-lokum-66b68b.netlify.app',// ✅ фронтенд (Vite)
     credentials: true, // ✅ дозвіл надсилати cookie
   })
 )
