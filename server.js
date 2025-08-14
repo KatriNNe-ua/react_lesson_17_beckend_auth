@@ -12,7 +12,10 @@ import commentRoutes from './routes/comments.js'
 dotenv.config()
 
 const app = express()
-
+app.use((req, res, next) => {
+  console.log("Incoming:", req.method, req.url);
+  next();
+});
 // app.use(cors({ origin: 'http://localhost:5173/', credentials: true }))
 app.use(
   cors({

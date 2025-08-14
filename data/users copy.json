@@ -28,5 +28,11 @@
     "email": "client2@example.com",
     "password": "$2b$10$3JZrCR3vPtRRhcxXxYtbTOL3Wkz92D0RrgULCD1gJKsUtclgrnTqq",
     "role": "client"
+  },
+    {
+    "id": "6",
+    "email": "client3@example.com",
+    "password": "$2b$10$3JZrCR3vPtRRhcxXxYtbTOL3Wkz92D0RrgULCD1gJKsUtclgrnTqq",
+    "role": "client"
   }
 ]
